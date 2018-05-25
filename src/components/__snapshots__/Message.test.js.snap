@@ -1,0 +1,25 @@
+exports[`Message details should render all the properties 1`] = `
+<div
+  className="message">
+  <div
+    className="message-text">
+    <div
+      className="tooltip">
+      mockMessage
+      <div
+        className="tooltiptext">
+        test.me@testing.com
+      </div>
+    </div>
+    <p>
+      Thu, 7th April 2016, 11:20AM
+    </p>
+  </div>
+  <div
+    className="message-avatar">
+    <img
+      alt="missing avatar"
+      src="http://dummyimage.com/100x100.jpg/ff4444/ffffff" />
+  </div>
+</div>
+`;

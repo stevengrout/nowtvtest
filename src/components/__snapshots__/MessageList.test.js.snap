@@ -1,0 +1,22 @@
+exports[`MessageList details should render a list of messages 1`] = `
+<div
+  className="messageList">
+  <MessageComponent
+    avatar={null}
+    email="abakera@craigslist.org"
+    key="73f30d93-f87b-45ea-bda5-60fa4b3716b5"
+    message="Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi."
+    time="2016-02-24T00:01:28Z" />
+  <MessageComponent
+    avatar="http://dummyimage.com/100x100.jpg/dddddd/000000"
+    email="awilliams8@indiegogo.com"
+    key="c980934a-f54e-459e-8137-0ec3654cdafb"
+    message="Quisque ut erat. Curabitur gravida nisi at nibh."
+    time="2016-02-26T10:05:17Z" />
+</div>
+`;
+
+exports[`MessageList details should render when list of messages is empty 1`] = `
+<div
+  className="messageList" />
+`;
